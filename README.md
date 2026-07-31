@@ -9,4 +9,7 @@ Em toda a faixa analisada, a probabilidade acumulada de obter pelo menos k acert
 
 Como a base de dados é composta por apenas 20 imagens, os ciclos de avaliação correspondem a diferentes reamostragens do mesmo conjunto de dados, e não a experimentos independentes.
 
-<img width="811" height="411" alt="image" src="https://github.com/user-attachments/assets/a8346139-f4de-40ca-895d-63d8ebc6778d" />
+Acurácia: a rede estabilizou no exato estado do dígito utilizado para treino.
+Lembrança: a rede estabilizou no exato estado do dígito utilizado para treino ou na região de mínima energia oposta, criada pela simetria dos pesos.
+
+<img width="811" height="411" alt="image" src="https://github.com/user-attachments/assets/c8140fb1-16e3-4f15-897c-da024c64cb8c" />

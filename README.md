@@ -3,8 +3,10 @@ Rede neural Hopfield que identifica em imagens 7 x 5 de pixels binários os díg
 
 A base de dados contém 20 imagens divididas igualmente para representarem os dígitos 0 e 1. A cada ciclo de teste uma de cada dígito é aleatoriamente selecionada para treinar a rede Hopfield, e as outras são utilizadas de teste, totalizando 18 testes por ciclo de teste.
 
-Após análises de milhares de ciclos, foi encontrado um comportamento consistente de que em 89% dos casos a rede acerta ao menos 9 dos dígitos de teste.
+Após análise de ciclos de treinamento e teste, observou-se que aproximadamente 89% dos ciclos obtêm pelo menos 9 acertos entre os 18 exemplos de teste.
 
-Ao longo de toda a curva a taxa de acerto do modelo não é inferior à calda superior da distribuição binomial.
+Em toda a faixa analisada, a probabilidade acumulada de obter pelo menos k acertos permaneceu igual ou superior à prevista por uma distribuição binomial com p=0,5, indicando desempenho superior ao esperado por um classificador aleatório.
+
+Como a base de dados é composta por apenas 20 imagens, os ciclos de avaliação correspondem a diferentes reamostragens do mesmo conjunto de dados, e não a experimentos independentes.
 
 <img width="811" height="411" alt="image" src="https://github.com/user-attachments/assets/a8346139-f4de-40ca-895d-63d8ebc6778d" />
